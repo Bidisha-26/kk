@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+box-sizing: border-box; 
+} 
+
+.frontPage {
+  background-color: #0A0806;
+  height:100%;
+}
+
+.navbar {
+  display: flex;                    /* puts children in a row */
+  justify-content: space-between;   /* logo left, links center, button right */
+  align-items: center;              /* vertically centered */
+  padding: 20px 60px;
+  background-color: #0A0806;
+  width: 100%;  
+}
+.logo-area {
+  display: flex;
+  flex-direction: column;           
+}
+
+#titl {
+  font-family: 'Cinzel Decorative', serif;
+  color: gold;
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
+} 
+
+#stitl {
+  font-family: 'Cinzel', serif;
+  color: cornsilk;
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  opacity: 0.7;
+}
+
+.nav-links {
+  display: flex;                    /* puts nav items in a row */
+  gap: 40px;
+}
+
+.nav-links p {
+  font-family: 'Cinzel', serif;
+  color: cornsilk;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.nav-links p:hover {
+  color: rgb(185, 163, 39);
+}
+
+.nav-btn {
+  font-family: 'Cinzel', serif;
+  background-color:rgb(185, 163, 39);
+  color: #0A0806;
+  border: none;
+  padding: 10px 24px;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+.nav-btn:hover {
+  background-color: #F0C96B;
+  cursor: pointer;
+} 
+.topOfHeading{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    font-family: 'Cinzel', serif;
+    color: cornsilk;
+    font-size: 0.7rem;
+    letter-spacing: 0.4em;
+    margin-top: 40px;
+    gap:10px; /* basically for spacing after dots*/
+}
+.heading{
+    display:flex;
+    color:cornsilk;
+    flex-direction:row;
+    justify-content: center;
+    font-family: 'cinzel decorative', serif;
+    font-size: 3.4rem;
+    gap:30px;
+    margin:10px;
+}
+.heading2{
+    color:rgb(185, 163, 39);
+}
+.tag{
+    font-family:'tangerine',serif;
+    color:cornsilk;
+    font-size:2rem;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+.subtag{
+ margin:10px;
+}
+.line1{
+width:150px;
+height:1px;
+background-color: gold;
+margin: 30px auto;
+}
+.herobuttons{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+  gap:10px;
+  
+}
+.herobutton1{
+  background-color:rgb(185, 163, 39);
+  padding:15px 40px;
+  font-family: 'cinzel',serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+  border:none;
+}
+.herobutton1:hover{
+  cursor: pointer;
+  background-color: #F0C96B;
+
+}
+.herobutton2{
+  background-color: transparent;
+  color: cornsilk;
+  border-color: #F0C96B;
+  padding:15px 40px;
+  font-family: 'cinzel',serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+}
+.herobutton2:hover{
+  cursor: pointer;
+  background-color:#636059 ;
+  border-color: #636059;
+
+}
+.line2{
+  width:700px;
+height:1px;
+background-color: gold;
+margin: 70px auto 50px;
+opacity:0.2;
+}
+.info{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:60px;
+  margin-top: 60px;
+}
+.info div{
+  display: flex;
+  flex-direction: column;
+  color: #F0C96B;
+}
+.counts{
+  font-family: 'cinzel',serif;
+  font-size: 2rem;
+   text-align: center;
+}
+.countOf{
+  font-family: 'cinzel',serif;
+  font-size:0.9rem;
+  letter-spacing: 0.2em;
+  opacity:0.7;
+}
+/*-------------------------------------------------*/
+.features{
+  background-color:#201914;
+}
+.headingOfp2{  /*heading of page2*/
+  display: flex;
+  flex-direction: column;
+  margin-left: 170px;
+  gap:15px;
+}
+.headingOfp2f{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  gap:15px;
+    font-family: 'Cinzel', serif;
+  color: #C9A84c;
+  font-size: 0.9rem;
+  letter-spacing: 0.3em;
+  opacity: 0.7;
+   margin-top: 140px;
+}
+.line3{
+  width:90px;
+height:1.5px;
+background-color: #C9A84c;
+
+}
+.headingOfp2s{
+  font-family: 'cinzel decorative', serif;
+  font-size:3.4rem;
+  letter-spacing:0.03em;
+  color: cornsilk;
+  
+}
+.headingOfp2t{
+  font-family: 'cinzel decorative', serif;
+  font-size:3.4rem;
+  letter-spacing:0.03em;
+  color: cornsilk;
+  
+}
+.headingOfp2fo{
+  font-family: 'cinzel decorative', serif;
+  font-size:3.4rem;
+  letter-spacing:0.03em;
+  color: rgb(185, 163, 39);;
+  
+}
+.parent{
+  display: flex;
+  justify-content: center;
+}
+ .item{
+   /* height: auto;
+  width:auto; */  
+  background-color: #2A2018;
+} 
+.gridOfFeatures{
+  display:grid;
+  width:1180px;
+  height:700px;
+ 
+  grid-template-rows: repeat(2,1fr);
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:3px;
+  margin-top: 30px;
+
+}
+.headingOfitem1{
+  display: flex;
+  margin-left:35px;
+  margin-top: 40px;
+}
+.num1{
+  margin-left: 10px;
+  font-size: 65px;
+  color: #675628;
+  opacity: 0.4;
+}
+.plgmgplanner{
+  font-family: 'cinzel', serif;
+  font-size: 1.05em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: cornsilk;
+  margin-left: 35px;
+  margin-top: 15px;
+}
+.description1{
+   font-family:'Crimson Pro',serif; 
+   color: #C4B89A;
+   font-size:1em;
+   font-weight: 100;
+   letter-spacing: 0.08em;
+   margin-left: 35px;
+   margin-top: 15px;
+   margin-right:35px;
+   line-height: 1.5;
+}
+.btnitem1{
+  background-color: transparent;
+  
+  color:#8B6914;
+  padding: 4px 10px;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  font-family: 'cinzel',serif;
+  font-weight: 650;
+  border-color: #D4AF37;
+  margin-left: 35px;
+  margin-top: 20px;
+} 
+.headingOfitem2{
+  display: flex;
+  margin-top: 15px;
+  flex-direction: row;
+   align-items: flex-end; 
+}
+.num2{
+  
+  font-size: 65px;
+  color: #675628;
+  opacity: 0.4;
+}
+.hiddenGemsOfOdisha{
+  font-family: 'cinzel', serif;
+  font-size: 1.05em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: cornsilk;
+  margin-left: 35px;
+  margin-top: 15px;
+}
+.description2{
+   font-family:'Crimson Pro',serif; 
+   color: #C4B89A;
+   font-size:1em;
+   font-weight: 100;
+   letter-spacing: 0.08em;
+   margin-left: 35px;
+   margin-top: 15px;
+   margin-right:35px;
+   line-height: 1.5;
+}
+.btnitem2{
+  background-color: transparent;
+  
+  color:#8B6914;
+  padding: 4px 10px;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  font-family: 'cinzel',serif;
+  font-weight: 650;
+  border-color: #D4AF37;
+  margin-left: 35px;
+  margin-top: 20px;
+} 
